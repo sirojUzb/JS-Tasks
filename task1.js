@@ -1,9 +1,9 @@
 // 1. write a function that takes a string as input and returns the string with the order of words reversed
-function reverseWords(str) {
-  return str.split("").reverse().join(" ");
-}
+// function reverseWords(str) {
+//   return str.split("").reverse().join(" ");
+// }
 
-console.log(reverseWords("Javascript is awesome"));
+// console.log(reverseWords("Javascript is awesome"));
 // DONE
 //
 //2. write a function that checks whether two given string are anarams(contain the same characters in different orders). ignore case adn whitespaces.
@@ -22,3 +22,18 @@ console.log(reverseWords("Javascript is awesome"));
 // console.log(areAnagrams("Hello", "Olelh")); //false
 // do next task
 // finish till next tuesday
+function secondLargest(arr) {
+  const sortedArr = arr.sort((a, b) => b - a);
+  return sortedArr[1];
+}
+//
+function SecondLargest(arr) {
+  const largest = Math.max.apply(null, arr);
+  for (let i = 0; i < arr.length; i++) {
+    if (largest === arr[i]) {
+      arr[i] = -Infinity;
+    }
+  }
+  return Math.max.apply(null, arr);
+}
+console.log(SecondLargest([8, 5, 10, 20]));
