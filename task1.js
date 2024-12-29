@@ -26,7 +26,7 @@ function secondLargest(arr) {
   const sortedArr = arr.sort((a, b) => b - a);
   return sortedArr[1];
 }
-//
+//my answer
 function SecondLargest(arr) {
   const largest = Math.max.apply(null, arr);
   for (let i = 0; i < arr.length; i++) {
@@ -37,3 +37,21 @@ function SecondLargest(arr) {
   return Math.max.apply(null, arr);
 }
 console.log(SecondLargest([8, 5, 10, 20]));
+//
+function rotateArray(arr, k) {
+  for (let i = 0; i < k; i++) {
+    arr.push(arr[0]);
+    arr.shift();
+  }
+  return arr;
+}
+//
+function findMissingNumber(arr) {
+  const max = Math.max(...arr);
+  for (let i = 1; i <= max; i++) {
+    if (!arr.includes(i)) {
+      console.log("Missing number is: ${i}");
+    }
+  }
+}
+// findMissingNumber([1, 2, 5, 6])
