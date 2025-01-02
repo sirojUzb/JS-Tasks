@@ -7,3 +7,4 @@ const user = {
   },
 };
 console.log(user.getFullName());
+// I'll solve one more task
