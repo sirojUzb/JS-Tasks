@@ -56,3 +56,4 @@ function findMissingNumber(arr) {
 }
 // findMissingNumber([1, 2, 5, 6])
 // will be next 2 solutions here
+// test
