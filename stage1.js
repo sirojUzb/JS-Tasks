@@ -21,3 +21,4 @@ const FirstName = "John";
 const SecondName = "Joe";
 
 console.log(`FullName: ${FirstName} ${SecondName}`);
+// Array
