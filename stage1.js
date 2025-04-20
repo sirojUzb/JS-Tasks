@@ -5,26 +5,52 @@ let age = 34;
 age = 34;
 
 console.log(`Hi, my name is ${name} and I am ${age} years old`);
-
+// Number
+// sum of two munbers
 const a = 10;
 const b = 5;
 
 console.log(`The sum is ${a + b}`);
-
+//subtrack of find the difference
 const x = 20;
 const y = 7;
 
 console.log(`The differance is ${x - y}`);
+// multiply to get the area
+const length = 8;
+const width = 3;
+console.log(`The area is ${length * width}`);
 
-// String
-const FirstName = "John";
-const SecondName = "Joe";
-
-console.log(`FullName: ${FirstName} ${SecondName}`);
 // Function
 const greetUser = (name) => {
   console.log(`Hello ${name}`);
 };
 
 greetUser("Siroj");
-// Array
+
+const addNumber = (c, d) => {
+  return c + d;
+};
+console.log(addNumber(10, 20));
+
+// average number
+let num1 = 70;
+let num2 = 80;
+let num3 = 90;
+
+// STRING
+
+const FirstName = "John";
+const SecondName = "Joe";
+
+console.log(`FullName: ${FirstName} ${SecondName}`);
+// 3.Make it Uppercase
+let lang = "javascript";
+
+console.log(`language = ${lang.toUpperCase()}`);
+
+function isEven(number) {
+    if (number === 0) return true;
+    if (number === 1) return false;
+    return isEven(Math.abs(number) - 2);
+}
