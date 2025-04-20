@@ -21,4 +21,10 @@ const FirstName = "John";
 const SecondName = "Joe";
 
 console.log(`FullName: ${FirstName} ${SecondName}`);
+// Function
+const greetUser = (name) => {
+  console.log(`Hello ${name}`);
+};
+
+greetUser("Siroj");
 // Array
