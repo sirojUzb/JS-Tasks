@@ -45,12 +45,12 @@ const SecondName = "Joe";
 
 console.log(`FullName: ${FirstName} ${SecondName}`);
 // 3.Make it Uppercase
-let lang = "javascript";
+let language = "javascript";
 
-console.log(`language = ${lang.toUpperCase()}`);
+console.log(`language = ${language.toUpperCase()}`);
 
 function isEven(number) {
-    if (number === 0) return true;
-    if (number === 1) return false;
-    return isEven(Math.abs(number) - 2);
+  if (number === 0) return true;
+  if (number === 1) return false;
+  return isEven(Math.abs(number) - 2);
 }
