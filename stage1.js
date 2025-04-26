@@ -55,3 +55,4 @@ function isEven(number) {
   return isEven(Math.abs(number) - 2);
 }
 // revision
+// if/switch/ternary
