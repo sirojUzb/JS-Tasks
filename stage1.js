@@ -56,3 +56,4 @@ function isEven(number) {
 }
 // revision
 // if/switch/ternary
+// loops
