@@ -49,11 +49,8 @@ let language = "javascript";
 
 console.log(`language = ${language.toUpperCase()}`);
 
-function isEven(number) {
-  if (number === 0) return true;
-  if (number === 1) return false;
-  return isEven(Math.abs(number) - 2);
-}
-// revision
-// if/switch/ternary
-// loops
+let is_even = function is_even(number) {
+  return number % 2 === 0;
+};
+
+console.log(is_even(4));
