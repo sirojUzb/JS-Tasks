@@ -67,5 +67,4 @@ let is_even = function is_even(number) {
 };
 
 console.log(is_even(4));
-// revision2
-// next stage
+// stage2
