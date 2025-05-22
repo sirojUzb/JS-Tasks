@@ -108,3 +108,4 @@ function celsiusToFahrenheit(c) {
 const c = 10;
 
 console.log(celsiusToFahrenheit(c));
+// 6
