@@ -109,3 +109,4 @@ const c = 10;
 
 console.log(celsiusToFahrenheit(c));
 // 6
+// loops
