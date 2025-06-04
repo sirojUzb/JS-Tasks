@@ -109,4 +109,40 @@ const c = 10;
 
 console.log(celsiusToFahrenheit(c));
 
-// refresh
+//
+const num = 10;
+
+if (num > 0) {
+  console.log("positive");
+} else if (num < 0) {
+  console.log("negative");
+} else {
+  console.log("zero");
+}
+
+const categorizeAge = (age) => {
+  if (age < 13) {
+    console.log("child");
+  } else if (age >= 13 && age <= 19) {
+    console.log("teen");
+  } else {
+    console.log("adult");
+  }
+};
+categorizeAge(10);
+categorizeAge(15);
+categorizeAge(20);
+//
+const calcF = (n) => {
+  let sum = 0;
+
+  for (let i = 0; i < n; i++) {
+    sum += i;
+  }
+
+  console.log(sum);
+};
+
+calcF(10);
+// 0 dan 10 gacha bolgan sonlarni bir-biriga qoshish orqali qiymat chariladi(10qoshilmaydi);
+// 1+2+3+4+5+6+7+8+9=45
