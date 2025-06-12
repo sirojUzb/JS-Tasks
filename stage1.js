@@ -152,3 +152,35 @@ const calcF = (n) => {
 calcF(10);
 // 0 dan 10 gacha bolgan sonlarni bir-biriga qoshish orqali qiymat chariladi(10qoshilmaydi);
 // 1+2+3+4+5+6+7+8+9=45
+
+switch (new Date().getDay()) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Invalid number");
+}
+
+//inline checking - 1ta qatorda tekshirib olish
+
+var age = 16;
+
+console.log(age >= 16 ? "you may enter the site" : "you are not allowed");
