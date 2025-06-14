@@ -183,4 +183,4 @@ switch (new Date().getDay()) {
 
 var age = 16;
 
-console.log(age >= 16 ? "you may enter the site" : "you are not allowed");
+console.log(age >= 16 ? "you may enter the web site" : "you are not allowed");
