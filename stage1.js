@@ -184,3 +184,17 @@ switch (new Date().getDay()) {
 var age = 16;
 
 console.log(age >= 16 ? "you may enter the web site" : "you are not allowed");
+
+// start point, end point, count
+// for (let i = 1; i <= 15; i += 2) {
+//   console.log(i);
+// }
+//
+var lengthMustBeEqualTo5 = "";
+
+while (lengthMustBeEqualTo5.length <= 5) {
+  console.log(lengthMustBeEqualTo5);
+  lengthMustBeEqualTo5 += "a";
+}
+
+// console.log(lengthMustBeEqualTo5.length);
