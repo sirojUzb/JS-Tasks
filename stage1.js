@@ -109,13 +109,8 @@
 
 // console.log(celsiusToFahrenheit(c));
 
-// LOOP
-// Print Numbers 1 to 10 (using for)
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
-
-//
+//                                    IF/ SWITCH / TERNARY
+// 1. Check if a number is positive,negativeor zero
 const num = 10;
 
 if (num > 0) {
@@ -125,6 +120,34 @@ if (num > 0) {
 } else {
   console.log("zero");
 }
+// 2. Grade checker
+var grade = "G";
+switch (grade) {
+  case "A":
+    console.log("Excellent!");
+    break;
+  case "B":
+    console.log("Good job!");
+    break;
+  case "C":
+    console.log("Fair effort.");
+    break;
+  case "D":
+    console.log("Needs improvement.");
+    break;
+  case "F":
+    console.log("Failed.");
+    break;
+  default:
+    console.log("Invalid grade.");
+}
+
+// 3. Check even or odd
+const checkEvenOdd = (num) => (num % 2 === 0 ? "even" : "odd");
+console.log(checkEvenOdd(3)); // Output: 'odd'
+console.log(checkEvenOdd(8)); // Output: 'even'
+
+// 4. Age category checker
 
 const categorizeAge = (age) => {
   if (age < 13) {
@@ -136,9 +159,22 @@ const categorizeAge = (age) => {
   }
 };
 categorizeAge(10);
-categorizeAge(15);
-categorizeAge(20);
-//
+// categorizeAge(15);
+// categorizeAge(20);
+
+// 5. Light switch(ternary)
+
+const isLightOn = true;
+const info = isLightOn ? "light is on" : "light is off";
+console.log(info);
+//                                    LOOP
+// 1. Print Numbers 1 to 10 (using for)
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// 2.Sum of first N number
 const calcF = (n) => {
   let sum = 0;
 
@@ -153,48 +189,67 @@ calcF(10);
 // 0 dan 10 gacha bolgan sonlarni bir-biriga qoshish orqali qiymat chariladi(10qoshilmaydi);
 // 1+2+3+4+5+6+7+8+9=45
 
-switch (new Date().getDay()) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wednesday");
-    break;
-  case 4:
-    console.log("Thursday");
-    break;
-  case 5:
-    console.log("Friday");
-    break;
-  case 6:
-    console.log("Saturday");
-    break;
-  case 7:
-    console.log("Sunday");
-    break;
-  default:
-    console.log("Invalid number");
+// 3.
+let count = 10;
+while (count >= 1) {
+  console.log(count);
+  count--;
 }
+//4.
+
+// switch (new Date().getDay()) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   case 7:
+//     console.log("Sunday");
+//     break;
+//   default:
+//     console.log("Invalid number");
+// }
+
+// LOOP darsi uchun misollar
 
 //inline checking - 1ta qatorda tekshirib olish
 
-var age = 16;
+// var age = 16;
 
-console.log(age >= 16 ? "you may enter the web site" : "you are not allowed");
+// console.log(age >= 16 ? "you may enter the web site" : "you are not allowed");
 
 // start point, end point, count
 // for (let i = 1; i <= 15; i += 2) {
 //   console.log(i);
 // }
-//
-var lengthMustBeEqualTo5 = "";
+// //
 
-while (lengthMustBeEqualTo5.length <= 5) {
-  console.log(lengthMustBeEqualTo5);
-  lengthMustBeEqualTo5 += "a";
-}
+// var lengthMustBeEqualTo5 = "";
+
+// while (lengthMustBeEqualTo5.length <= 5) {
+//   console.log(lengthMustBeEqualTo5);
+//   lengthMustBeEqualTo5 += "a";
+// }
 
 // console.log(lengthMustBeEqualTo5.length);
+
+// start point
+// let i = 1;
+
+// while (i <= 15) {
+//   console.log(i);
+//   i++;
+// }
