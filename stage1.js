@@ -253,4 +253,4 @@ while (count >= 1) {
 //   console.log(i);
 //   i++;
 // }
-// revision of array again
+//restart JS
