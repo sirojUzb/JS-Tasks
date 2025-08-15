@@ -1,4 +1,5 @@
 // Date types
 // primative
 // non-primative
-Math
+Math;
+string;
