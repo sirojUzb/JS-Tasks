@@ -25,3 +25,10 @@ true || true => true
 false || false => false
 
 // Binary --> 0 va 1
+var age=25;
+
+if(age>=18 && age<=19){
+    console.log('you might enter to the club');
+}else if(age>=20&&age<=30){console.log('you can enroll to the premium account for free!');
+}else{console.log('you are not allowed!');
+}
