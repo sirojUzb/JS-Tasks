@@ -34,4 +34,4 @@ if (age >= 18 && age <= 19) {
 } else {
   console.log("you are not allowed!");
 }
-// switch
+// switch/case
