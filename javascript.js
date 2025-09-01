@@ -35,3 +35,7 @@ if (age >= 18 && age <= 19) {
   console.log("you are not allowed!");
 }
 //function
+// Loop
+// Biror narsani qayta-qayta bajarilishiga aytiladi. Quyoshni chiqib-botishi bunga misol boladi. "Loop"ni 5ta turi bor:
+// 1. for loop; 2. while loop; 3. do while loop; 4. for off; 5. for in.
+//
