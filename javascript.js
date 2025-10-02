@@ -40,4 +40,4 @@ if (age >= 18 && age <= 19) {
 // 1. for loop; 2. while loop; 3. do while loop; 4. for off; 5. for in.
 // for loop
 // Js Functions are used to perform  operations.We can call functions many times to reuse the code.
-// function2
+// Javascript objects
