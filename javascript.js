@@ -43,3 +43,4 @@ if (age >= 18 && age <= 19) {
 // Javascript objects
 // conditional operations
 // revision
+console.log(Math.round(12.5, "Math.round"));
