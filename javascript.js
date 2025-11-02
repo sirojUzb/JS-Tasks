@@ -43,4 +43,16 @@ if (age >= 18 && age <= 19) {
 // Javascript objects
 // conditional operations
 // revision
+// Math methods:
+console.log(Math.abs(-10, "Math.abs"));
+console.log(Math.floor(10.2), "Math.floor");
+console.log(Math.ceil(10.2), "Math.ceil");
 console.log(Math.round(12.5, "Math.round"));
+console.log(Math.max(5, 10, 7), "Math.max");
+console.log(Math.min(4, 6, 1), "Math.min");
+console.log(Math.pow(3, 4), "Math.pow");
+console.log(Math.sqrt(25), "Math.sqrt");
+console.log(Math.random(), "Math.random");
+
+// Conditional operations
+//&&/|| --> and/or
