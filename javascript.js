@@ -56,3 +56,23 @@ console.log(Math.random(), "Math.random");
 
 // Conditional operations
 //&&/|| --> and/or
+//
+// String methods:
+// searchingMethods:
+// 1.indexOf
+// 2.lastIndexOf
+// 3.search
+// 4.includes
+// cuttingMethods:
+// 1.slice
+// 2.substr
+// 3.substring
+// replace
+// replaceAll
+// split(string => array)
+// repeat()
+// startsWith
+// endsWith
+// toLowerCase
+// toUpperCase
+// trim
