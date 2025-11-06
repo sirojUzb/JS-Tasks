@@ -78,3 +78,4 @@ console.log(Math.random(), "Math.random");
 // trim
 // 
 // Condition
+// example
