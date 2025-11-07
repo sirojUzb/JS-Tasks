@@ -76,6 +76,7 @@ console.log(Math.random(), "Math.random");
 // toLowerCase
 // toUpperCase
 // trim
-// 
+//
 // Condition
 // example
+// if/else
