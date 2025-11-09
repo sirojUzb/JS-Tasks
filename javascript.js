@@ -85,3 +85,5 @@ console.log(Math.random(), "Math.random");
 for (i = 1; i < 10; i += 2) {
   console.log(i);
 }
+var isActive = true;
+console.log(isActive ? "Active" : "Inactive");
