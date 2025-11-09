@@ -80,3 +80,8 @@ console.log(Math.random(), "Math.random");
 // Condition
 // example
 // if/else
+// LOOP
+// startpoint, endpoint, count
+for (i = 1; i < 10; i += 2) {
+  console.log(i);
+}
