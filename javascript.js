@@ -89,12 +89,38 @@ console.log(Math.random(), "Math.random");
 // console.log(isActive ? "Active" : "Inactive");
 // OBJECT
 // In JS, an object is collection of properties, which are key-value pairs. It's composite and mutable data type that allows you to store related information together.
-let John = {
+let john = {
+  name: "John",
+  surname: "Smith",
   age: 36,
   city: "New York",
 };
 
 // Accessing object with dot and []
 // 2 va undan ortiq soz bolsa, [""] ishlatiladi.
-console.log(John.age);
-console.log(John["city"]);
+console.log(john.age);
+console.log(john["city"]);
+
+Object.freeze(john);
+// Create
+john["full name"] = `${john.name} ${john.surname}`;
+console.log(john);
+// Update
+john.age = 37;
+console.log(john);
+// Delete
+delete john.city;
+
+// keys, values
+console.log(Object.keys(john));
+console.log(Object.values(john));
+console.log(Object.entries(john));
+
+var entries = Object.entries(john);
+
+for (let i = 0; i < entries.length; i++) {
+  console.log(entries[i]);
+}
+// for security, there are Object.freeze and Object.seal
+// in freeze you cannot create, update and delete. freeze is stronger than seal
+// in seal, it allows only the modification(update)
