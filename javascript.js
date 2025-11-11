@@ -1,11 +1,11 @@
 // Conditional operations
 // Conditional operations return boolean.
-var age1 = 18;
-var age2 = "18";
+// var age1 = 18;
+// var age2 = "18";
 
-console.log(age1 == age2);
+// console.log(age1 == age2);
 // true
-console.log(age1 === age2);
+// console.log(age1 === age2);
 // false
 
 // == / === - more strict-"data type" bilan tekshiradi.
@@ -82,15 +82,19 @@ console.log(Math.random(), "Math.random");
 // if/else
 // LOOP
 // startpoint, endpoint, count
-for (i = 1; i < 10; i += 2) {
-  console.log(i);
-}
-var isActive = true;
-console.log(isActive ? "Active" : "Inactive");
+// for (i = 1; i < 10; i += 2) {
+//   console.log(i);
+// }
+// var isActive = true;
+// console.log(isActive ? "Active" : "Inactive");
 // OBJECT
 // In JS, an object is collection of properties, which are key-value pairs. It's composite and mutable data type that allows you to store related information together.
-Copyvar person = {
-  name: John;
-  age: 36;
-  city: "New York"
-}
+let John = {
+  age: 36,
+  city: "New York",
+};
+
+// Accessing object with dot and []
+// 2 va undan ortiq soz bolsa, [""] ishlatiladi.
+console.log(John.age);
+console.log(John["city"]);
