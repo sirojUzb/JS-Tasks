@@ -87,3 +87,10 @@ for (i = 1; i < 10; i += 2) {
 }
 var isActive = true;
 console.log(isActive ? "Active" : "Inactive");
+// OBJECT
+// In JS, an object is collection of properties, which are key-value pairs. It's composite and mutable data type that allows you to store related information together.
+Copyvar person = {
+  name: John;
+  age: 36;
+  city: "New York"
+}
