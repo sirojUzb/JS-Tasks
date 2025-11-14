@@ -124,3 +124,4 @@ for (let i = 0; i < entries.length; i++) {
 // for security, there are Object.freeze and Object.seal
 // in freeze you cannot create, update and delete. freeze is stronger than seal
 // in seal, it allows only the modification(updating)
+// object revision
