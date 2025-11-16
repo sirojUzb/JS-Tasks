@@ -125,3 +125,21 @@ for (let i = 0; i < entries.length; i++) {
 // in freeze you cannot create, update and delete. freeze is stronger than seal
 // in seal, it allows only the modification(updating)
 // object revision
+
+// ARRAY
+// ArrayIntroduction. An array in JS is a data strcture used to store multiple values in a single variable. Each value in  the array is called an element, and each element is accessed by its index.
+// Array ham object kabi bitta ozgaruvcida kopgina malumotlarni saqlash uchun ishlatiladi.
+// Array-index boylab saqlaydi, object-key boylab saqlaydi.
+// Creating an array of strings
+let fruits = ["banana", "peach", "orange", "kiwi"];
+
+// Accessing elements in the array
+console.log(fruits[3]); // Output: kiwi
+// Adding elements to the array
+fruits.push("apricot");
+// Modifying elements in the array
+fruits[1] = "pear";
+console.log(fruits); // Output: [ 'banana', 'pear', 'orange', 'kiwi', 'apricot' ]
+// Removing elements from the array
+fruits.pop();
+console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
