@@ -143,3 +143,4 @@ console.log(fruits); // Output: [ 'banana', 'pear', 'orange', 'kiwi', 'apricot' 
 // Removing elements from the array
 fruits.pop();
 console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
+// ARRAY BASICS
