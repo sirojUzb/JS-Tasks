@@ -144,3 +144,4 @@ console.log(fruits); // Output: [ 'banana', 'pear', 'orange', 'kiwi', 'apricot' 
 fruits.pop();
 console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
 // ARRAY BASICS
+// dimentional array = nested array
