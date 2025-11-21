@@ -145,4 +145,4 @@ fruits.pop();
 console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
 // ARRAY BASICS
 // dimentional array = nested array
-// revision of array
+// revision
