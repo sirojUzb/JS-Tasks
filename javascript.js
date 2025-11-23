@@ -155,3 +155,18 @@ const [first, second, ...rest] = numbers;
 console.log(first);
 
 console.log(first, second, ...rest);
+
+// Cutting
+// slice[] - 1)startInd, 2)endInd
+
+// splice[] - 1)startInd, 2)count, 3)push(malumot qosh)
+let raqam = [10, 20, 30, 40];
+
+let removed = raqam.splice(2, 3, "hello");
+console.log(removed);
+
+console.log(raqam);
+// when you remove with "splice", it changes origin too.
+// pop()-orqadan ochiradi. 1ta ochiradi.
+// shift()-oldidan ochiradi.
+// spread operator bilan 2ta arrayni qoshamiz
