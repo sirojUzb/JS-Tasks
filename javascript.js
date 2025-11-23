@@ -147,3 +147,11 @@ console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
 // dimentional array = nested array
 // revision
 // Array methods
+const numbers = [1, 2, 3, 4];
+
+// Destructure
+const [first, second, ...rest] = numbers;
+
+console.log(first);
+
+console.log(first, second, ...rest);
