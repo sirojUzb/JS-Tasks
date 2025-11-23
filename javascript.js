@@ -170,3 +170,55 @@ console.log(raqam);
 // pop()-orqadan ochiradi. 1ta ochiradi.
 // shift()-oldidan ochiradi.
 // spread operator bilan 2ta arrayni qoshamiz
+// Array loops
+// funksiya ichida funksiya kelishiga - Callback deyiladi
+let meva = ["apple", "apricot", "banana"];
+
+meva.map((value, index, array) => {
+  console.log(value, index, array);
+});
+
+// 1. map()
+// 2. forEach() - map() bilan bir xil vazifani bajaradi.
+// 3. reduce() - matematik amallar bajarish uchun ishlatiladi.
+// 4. sort()
+// 5. filter()
+
+let raqamlar = [1, 2, 3, 4];
+
+console.log(
+  numbers.reduce((accumulator, currentValue) => {
+    console.log(currentValue, accumulator);
+    return accumulator + currentValue;
+  }, 0)
+);
+
+// accumulator = 0(oldValue deb ham ataladi)
+
+let kudamono = ["banana", "apple", "lemon"];
+console.log(
+  kudamono.filter((value, index) => {
+    return value !== "banana";
+  })
+);
+
+// true - should remain
+// false - should remove
+// Advanced = globalArray
+
+// 2. Array.every
+// 3. Array.some
+// 4. Array.from => stringni arrayga otkazib beradi
+let son = [2, 3, 4, 5, 6];
+
+console.log(
+  son.some((value, index) => {
+    return value > 3;
+  })
+); // or
+
+console.log(
+  son.every((value, index) => {
+    return value > 3;
+  })
+); // and
