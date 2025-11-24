@@ -206,6 +206,7 @@ console.log(
 // false - should remove
 // Advanced = globalArray
 
+// 1. Fill
 // 2. Array.every
 // 3. Array.some
 // 4. Array.from => stringni arrayga otkazib beradi
