@@ -223,3 +223,4 @@ console.log(
     return value > 3;
   })
 ); // and
+// revision of object and array
