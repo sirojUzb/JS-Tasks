@@ -224,4 +224,4 @@ console.log(
   })
 ); // and
 // revision of object and array
-// function types
+// function's revision
