@@ -224,3 +224,4 @@ console.log(
   })
 ); // and
 // revision of object and function
+// JS BOM
