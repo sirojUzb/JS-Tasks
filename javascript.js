@@ -223,6 +223,4 @@ console.log(
     return value > 3;
   })
 ); // and
-// revision of object and function
-// JS BOM
-// revision
+// revision of functioN
