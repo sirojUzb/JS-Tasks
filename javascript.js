@@ -223,4 +223,4 @@ console.log(
     return value > 3;
   })
 ); // and
-// revision of object's basics
+// revision of object's type
