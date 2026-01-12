@@ -224,3 +224,4 @@ console.log(
   })
 ); // and
 // revision of object's type
+// object's security:freeze&seal
