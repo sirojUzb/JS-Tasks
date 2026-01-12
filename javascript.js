@@ -225,3 +225,6 @@ console.log(
 ); // and
 // revision of object's type
 // object's security:freeze&seal
+// for security, there are Object.freeze and Object.seal
+// in freeze you cannot create, update and delete. freeze is stronger than seal
+// in seal, it allows only the modification(updating)
