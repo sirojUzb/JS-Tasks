@@ -127,7 +127,7 @@ for (let i = 0; i < entries.length; i++) {
 // object revision
 
 // ARRAY
-// ArrayIntroduction. An array in JS is a data strcture used to store multiple values in a single variable. Each value in  the array is called an element, and each element is accessed by its index.
+// ArrayIntroduction. An array in JS is a data structure used to store multiple values in a single variable. Each value in  the array is called an element, and each element is accessed by its index.
 // Array ham object kabi bitta ozgaruvcida kopgina malumotlarni saqlash uchun ishlatiladi.
 // Array-index boylab saqlaydi, object-key boylab saqlaydi.
 // Creating an array of strings
@@ -144,8 +144,7 @@ console.log(fruits); // Output: [ 'banana', 'pear', 'orange', 'kiwi', 'apricot' 
 fruits.pop();
 console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
 // ARRAY BASICS
-// dimentional array = nested array
-// revision
+// dimentional array = nested array-array ichida array
 // Array methods
 const numbers = [1, 2, 3, 4];
 
@@ -228,4 +227,4 @@ console.log(
 // for security, there are Object.freeze and Object.seal
 // in freeze you cannot create, update and delete. freeze is stronger than seal
 // in seal, it allows only the modification(updating)
-// array introduction
+// array-JSda bitta ozgaruvcida koplab qiymatlarni ozida saqlay oladigan "data structure" hisoblanadi.
