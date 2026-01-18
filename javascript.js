@@ -189,7 +189,7 @@ console.log(
   numbers.reduce((accumulator, currentValue) => {
     console.log(currentValue, accumulator);
     return accumulator + currentValue;
-  }, 0)
+  }, 0),
 );
 
 // accumulator = 0(oldValue deb ham ataladi)
@@ -198,7 +198,7 @@ let kudamono = ["banana", "apple", "lemon"];
 console.log(
   kudamono.filter((value, index) => {
     return value !== "banana";
-  })
+  }),
 );
 
 // true - should remain
@@ -214,17 +214,19 @@ let son = [2, 3, 4, 5, 6];
 console.log(
   son.some((value, index) => {
     return value > 3;
-  })
+  }),
 ); // or
 
 console.log(
   son.every((value, index) => {
     return value > 3;
-  })
-); // and
+  }),
+);
+// and
 // revision of object's type
 // object's security:freeze&seal
 // for security, there are Object.freeze and Object.seal
 // in freeze you cannot create, update and delete. freeze is stronger than seal
 // in seal, it allows only the modification(updating)
 // array-JSda bitta ozgaruvcida koplab qiymatlarni ozida saqlay oladigan "data structure" hisoblanadi.
+// Array Methods
