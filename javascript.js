@@ -205,11 +205,6 @@ console.log(
 // true - should remain
 // false - should remove
 // Advanced = globalArray
-
-// 1. Fill
-// 2. Array.every
-// 3. Array.some
-// 4. Array.from => stringni arrayga otkazib beradi
 let son = [2, 3, 4, 5, 6];
 
 console.log(
@@ -231,3 +226,8 @@ console.log(
 // in seal, it allows only the modification(updating)
 // array-JSda bitta ozgaruvcida koplab qiymatlarni ozida saqlay oladigan "data structure" hisoblanadi.
 //advanced array
+
+// 1. Fill
+// 2. Array.every
+// 3. Array.some
+// 4. Array.from => stringni arrayga otkazib beradi
