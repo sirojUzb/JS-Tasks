@@ -176,9 +176,10 @@ let meva = ["apple", "apricot", "banana"];
 meva.map((value, index, array) => {
   console.log(value, index, array);
 });
+// indexOf, lastIndexOf,
 
-// 1. map()
-// 2. forEach() - map() bilan bir xil vazifani bajaradi.
+// 1. map()-faqat array u-n ishlaydi. loop qaytaradi. yangi array qaytaradi.
+// 2. forEach() - map() bilan bir xil vazifani bajaradi. returnda
 // 3. reduce() - matematik amallar bajarish uchun ishlatiladi.
 // 4. sort()
 // 5. filter()
@@ -229,4 +230,4 @@ console.log(
 // in freeze you cannot create, update and delete. freeze is stronger than seal
 // in seal, it allows only the modification(updating)
 // array-JSda bitta ozgaruvcida koplab qiymatlarni ozida saqlay oladigan "data structure" hisoblanadi.
-// Array Methods
+//advanced array
