@@ -146,10 +146,10 @@ console.log(fruits); // [ 'banana', 'pear', 'orange', 'kiwi' ]
 // ARRAY BASICS
 // dimentional array = nested array-array ichida array
 // Array methods
-const numbers = [1, 2, 3, 4];
+const sonlar = [1, 2, 3, 4];
 
 // Destructure
-const [first, second, ...rest] = numbers;
+const [first, second, ...rest] = sonlar;
 
 console.log(first);
 

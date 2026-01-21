@@ -1,8 +1,24 @@
-const numbers = [1, 2, 3, 4];
+//1. yig'indini topish
+var numbers = [1, 2, 3, 4, 5, 6];
 
-// Destructure
-const [first, second, ...rest] = numbers;
+const sum = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+console.log(sum);
 
-console.log(numbers);
+//3. Juft son
+var numbers = [1, 2, 3, 4, 5, 6];
 
-console.log(first, second, ...rest);
+console.log(
+  numbers.filter((value) => {
+    return value % 2 == 0;
+  }),
+);
+//4. sozlarni uzunligini topish
+const meva = ["olma", "banan", "nok"];
+const uzunlik = meva.map((qiymat) => {
+  return qiymat.length;
+});
+console.log(uzunlik);
+
+// 5.
