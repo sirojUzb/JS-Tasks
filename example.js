@@ -48,3 +48,4 @@ console.log(eskiQiymat);
 // console.log(uzunlik);
 
 // 5.
+// function introduction
