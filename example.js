@@ -16,14 +16,14 @@
 
 // console.log(prev);
 // 3-yol forOf(ma'lumotlarni qaytarib beradi)
-var numbers = [1, 2, 3, 4, 5, 6];
+// var numbers = [1, 2, 3, 4, 5, 6];
 
-let eskiQiymat = 0;
+// let eskiQiymat = 0;
 
-for (const element of numbers) {
-  eskiQiymat = eskiQiymat + element;
-}
-console.log(eskiQiymat);
+// for (const element of numbers) {
+//   eskiQiymat = eskiQiymat + element;
+// }
+// console.log(eskiQiymat);
 // for bilan forOfni farqi:
 // forOf(ma'lumotlarni qaytarib beradi)
 // for(indeksini qaytarib beradi)
@@ -49,3 +49,38 @@ console.log(eskiQiymat);
 
 // 5.
 // function introduction
+
+// stringda eng oxirgi harfini topish
+// var a = "aajakajkajkajakaaks";
+
+// console.log(a[a.length - 1]); // "s"
+// 1
+// for (let i = 1; i <= 10; i += 1) {
+//   console.log(i);
+// }
+// 2
+// for (var o = 0; o <= 20; o += 2) {
+//   console.log(o);
+// }
+//3
+let fruits = ["olma", "banan", "anor", "uzum"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+// 4
+let numbers = [5, 12, 3, 21, 9];
+let largest = Math.max(...numbers);
+console.log(largest);
+
+// 5?
+//6
+
+function checkEvenOdd(num) {
+  if (num % 2 == 0) {
+    console.log("juft son");
+  } else {
+    console.log("toq son");
+  }
+}
+checkEvenOdd(53);
