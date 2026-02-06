@@ -85,3 +85,4 @@ function checkEvenOdd(num) {
 }
 checkEvenOdd(53);
 // sync
+// async
