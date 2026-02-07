@@ -84,5 +84,7 @@ function checkEvenOdd(num) {
   }
 }
 checkEvenOdd(53);
+// some solutions
+
 // sync
 // async
