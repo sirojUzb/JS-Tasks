@@ -63,28 +63,61 @@
 //   console.log(o);
 // }
 //3
-let fruits = ["olma", "banan", "anor", "uzum"];
+// let fruits = ["olma", "banan", "anor", "uzum"];
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
 // 4
-let numbers = [5, 12, 3, 21, 9];
-let largest = Math.max(...numbers);
-console.log(largest);
+// let numbers = [5, 12, 3, 21, 9];
+// let largest = Math.max(...numbers);
+// console.log(largest);
 
 // 5?
 //6
 
-function checkEvenOdd(num) {
-  if (num % 2 == 0) {
-    console.log("juft son");
-  } else {
-    console.log("toq son");
-  }
-}
-checkEvenOdd(53);
-// some solutions
+// function checkEvenOdd(num) {
+//   if (num % 2 == 0) {
+//     console.log("juft son");
+//   } else {
+//     console.log("toq son");
+//   }
+// }
+// checkEvenOdd(53);
 
-// sync
-// async
+// callBack Authorization example
+// Promise
+// Project with Promise https://api.sampleapis.com/coffee/hot
+// async await
+
+//asynchronous vs synchronous(ketma-ket)
+// "sync" ga misol
+// console.log("Hello from Siroj");
+
+// for (let i = 1; i < 10; i++) {
+//   console.log(i);
+// }
+
+// console.log("For loop ended");
+
+// setTimeout(() => {
+//   console.log("after 3 second");
+// }, 3000);
+
+// callBack auth
+
+function loginToFacebook(password, email, callback) {
+  console.log("Sending request to backend ...");
+  setTimeout(() => {
+    if (password === "siroj12345" && email === "blabla@gmail.com") {
+      return callback("you logged in to your profile");
+    } else {
+      return callback(
+        "Oops, something is wrong. Your password or login is wrong!",
+      );
+    }
+  }, 3000);
+}
+loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
+  console.log(data);
+});
