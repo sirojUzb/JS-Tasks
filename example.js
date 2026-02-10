@@ -121,3 +121,6 @@ function loginToFacebook(password, email, callback) {
 loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
   console.log(data);
 });
+// promise.then
+// promise.catch
+// promise.finally
