@@ -122,5 +122,6 @@ loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
   console.log(data);
 });
 // promise.then
-// promise.catch
+// promise.catch /error
 // promise.finally
+// Project with Promise https://api.sampleapis.com/coffee/hot
