@@ -125,3 +125,9 @@ loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
 // promise.catch /error
 // promise.finally
 // Project with Promise https://api.sampleapis.com/coffee/hot
+
+// GET - getting data
+// POST - creating data
+// PUT - updating data
+// DELETE - deleting data
+// async await
