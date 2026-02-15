@@ -131,3 +131,5 @@ loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
 // PUT - updating data
 // DELETE - deleting data
 // async await
+
+// class
