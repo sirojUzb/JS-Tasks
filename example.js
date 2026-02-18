@@ -1,6 +1,8 @@
 //1. yig'indini topish
 // var numbers = [1, 2, 3, 4, 5, 6];
 
+const { current } = require("@reduxjs/toolkit");
+
 // const sum = numbers.reduce((accumulator, currentValue) => {
 //   return accumulator + currentValue;
 // }, 0);
@@ -106,21 +108,21 @@
 
 // callBack auth
 
-function loginToFacebook(password, email, callback) {
-  console.log("Sending request to backend ...");
-  setTimeout(() => {
-    if (password === "siroj12345" && email === "blabla@gmail.com") {
-      return callback("you logged in to your profile");
-    } else {
-      return callback(
-        "Oops, something is wrong. Your password or login is wrong!",
-      );
-    }
-  }, 3000);
-}
-loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
-  console.log(data);
-});
+// function loginToFacebook(password, email, callback) {
+//   console.log("Sending request to backend ...");
+//   setTimeout(() => {
+//     if (password === "siroj12345" && email === "blabla@gmail.com") {
+//       return callback("you logged in to your profile");
+//     } else {
+//       return callback(
+//         "Oops, something is wrong. Your password or login is wrong!",
+//       );
+//     }
+//   }, 3000);
+// }
+// loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
+//   console.log(data);
+// });
 // promise.then
 // promise.catch /error
 // promise.finally
@@ -133,3 +135,55 @@ loginToFacebook("siroj12345", "blabla@gmail.com", (data) => {
 // async await
 
 // class
+
+// this x arrow ()=>{} ishlamaydi. lekin ishlatish yoli pastda korsatilgan.
+// // functionni ichiga kiritib ishlatish m-n.
+// let person = {
+//   name: "John",
+//   surname: "Doe",
+//   age: "30",
+//   currentCountry: "Japan",
+//   getPasswordData: function () {
+//     return () => {
+//       return `
+//       name => ${this.name}
+//       surname => ${this.surname}
+//       age => ${this.age}
+//       currentCountry => ${this.currentCountry}
+//     `;
+//     };
+//   },
+// };
+// console.log(person.getPasswordData()());
+
+// CLASS
+class CreatePerson {
+  constructor(name, surname, number, currentCity) {
+    this.name = name;
+    this.surname = surname;
+    this.number = number;
+    this.currentCity = currentCity;
+  }
+}
+
+const person1 = new CreatePerson("John", "Doe", "123456789", "Tokyo");
+
+class Student extends CreatePerson {
+  constructor(name, surname, number, currentCity, originCity) {
+    super(name, surname, number, currentCity);
+    this.originCity = originCity;
+  }
+  getFullname() {
+    return `${this.name} ${this.surname}`;
+  }
+}
+
+const Student1 = new Student(
+  "Bek",
+  "Shukhratov",
+  "112333444",
+  "Kanazawa",
+  "Uzbekistan",
+);
+
+console.log(Student1.getFullname());
