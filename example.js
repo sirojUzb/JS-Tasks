@@ -187,3 +187,4 @@ const Student1 = new Student(
 );
 
 console.log(Student1.getFullname());
+// revision of class
