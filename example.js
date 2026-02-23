@@ -157,34 +157,46 @@ const { current } = require("@reduxjs/toolkit");
 // console.log(person.getPasswordData()());
 
 // CLASS
-class CreatePerson {
-  constructor(name, surname, number, currentCity) {
+// obyektga qaratilgan
+// class CreatePerson {
+//   constructor(name, surname, number, currentCity) {
+//     this.name = name;
+//     this.surname = surname;
+//     this.number = number;
+//     this.currentCity = currentCity;
+//   }
+// }
+
+// const person1 = new CreatePerson("John", "Doe", "123456789", "Tokyo");
+
+// class Student extends CreatePerson {
+//   constructor(name, surname, number, currentCity, originCity) {
+//     super(name, surname, number, currentCity);
+//     this.originCity = originCity;
+//   }
+//   getFullname() {
+//     return `${this.name} ${this.surname}`;
+//   }
+// }
+
+// const Student1 = new Student(
+//   "Bek",
+//   "Shukhratov",
+//   "112333444",
+//   "Kanazawa",
+//   "Uzbekistan",
+// );
+
+// console.log(Student1.getFullname());
+// revision of class
+
+class Person {
+  constructor(name, surname, age) {
     this.name = name;
     this.surname = surname;
-    this.number = number;
-    this.currentCity = currentCity;
+    this.age = age;
   }
 }
 
-const person1 = new CreatePerson("John", "Doe", "123456789", "Tokyo");
-
-class Student extends CreatePerson {
-  constructor(name, surname, number, currentCity, originCity) {
-    super(name, surname, number, currentCity);
-    this.originCity = originCity;
-  }
-  getFullname() {
-    return `${this.name} ${this.surname}`;
-  }
-}
-
-const Student1 = new Student(
-  "Bek",
-  "Shukhratov",
-  "112333444",
-  "Kanazawa",
-  "Uzbekistan",
-);
-
-console.log(Student1.getFullname());
-// revision of class
+const Shaxs = new Person("Siroj", "Mamatov", "35");
+// dom
