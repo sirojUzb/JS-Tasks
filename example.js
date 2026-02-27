@@ -200,3 +200,4 @@ class Person {
 
 const Shaxs = new Person("Siroj", "Mamatov", "35");
 // dom
+// dom example
