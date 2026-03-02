@@ -199,4 +199,18 @@ class Person {
 }
 
 const Shaxs = new Person("Siroj", "Mamatov", "35");
-// dom example
+// JS-LESSON 9
+// DOM
+// Window & Document#
+// * Selectors: getElementByID, getElementByClassName, getElementByTagName,
+//    querySelector, querySelectorAll
+// * Create Element: createElement
+// * Position: appendChild(NodeElm), append,
+//    insertBefore(nodeElm, beforeNode)
+// * Delete: .remove()
+// * Properties: .id, .className, .classList,
+//    .classListadd(value), classListremove(value),
+//    .classList.replace(newValue, value),
+//    .classList.contains(value)
+// * Events: click, dblclick, mousemove, mouseover, mouseout
+// * Project: render with methods: delete, addList, fetch, data
