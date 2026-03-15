@@ -214,3 +214,4 @@ const Shaxs = new Person("Siroj", "Mamatov", "35");
 //    .classList.contains(value)
 // * Events: click, dblclick, mousemove, mouseover, mouseout
 // * Project: render with methods: delete, addList, fetch, data
+// revision
