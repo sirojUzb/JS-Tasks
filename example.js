@@ -215,3 +215,4 @@ const Shaxs = new Person("Siroj", "Mamatov", "35");
 // * Events: click, dblclick, mousemove, mouseover, mouseout
 // * Project: render with methods: delete, addList, fetch, data
 // revision
+// react
