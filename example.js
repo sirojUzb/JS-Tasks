@@ -207,7 +207,7 @@ const Shaxs = new Person("Siroj", "Mamatov", "35");
 // * Create Element: createElement
 // * Position: appendChild(NodeElm), append,
 //    insertBefore(nodeElm, beforeNode)
-// * Delete: .remove()
+// * 削除: .remove()
 // * Properties: .id, .className, .classList,
 //    .classListadd(value), classListremove(value),
 //    .classList.replace(newValue, value),
@@ -215,3 +215,4 @@ const Shaxs = new Person("Siroj", "Mamatov", "35");
 // * Events: click, dblclick, mousemove, mouseover, mouseout
 // * Project: render with methods: delete, addList, fetch, data
 // revision
+// started with codex
